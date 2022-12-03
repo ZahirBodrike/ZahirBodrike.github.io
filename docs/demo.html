@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>获取 site / page | Buu的网络日志</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="一个热爱生活的年轻人">
+    
+    <link rel="preload" href="/assets/css/0.styles.fac1be2b.css" as="style"><link rel="preload" href="/assets/js/app.3f3c304d.js" as="script"><link rel="preload" href="/assets/js/2.99652857.js" as="script"><link rel="preload" href="/assets/js/12.38fd8346.js" as="script"><link rel="prefetch" href="/assets/js/10.1dd84d58.js"><link rel="prefetch" href="/assets/js/11.96e6e6c8.js"><link rel="prefetch" href="/assets/js/13.c4d742f1.js"><link rel="prefetch" href="/assets/js/14.af1e9415.js"><link rel="prefetch" href="/assets/js/3.a87540bb.js"><link rel="prefetch" href="/assets/js/4.4df21530.js"><link rel="prefetch" href="/assets/js/5.17401019.js"><link rel="prefetch" href="/assets/js/6.e466cd5f.js"><link rel="prefetch" href="/assets/js/7.89cad7b3.js"><link rel="prefetch" href="/assets/js/8.ccafbb05.js"><link rel="prefetch" href="/assets/js/9.e2b6f4bd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fac1be2b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Buu的网络日志</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/pm/" class="nav-link">
+  产品
+</a></div><div class="nav-item"><a href="/docs/fe/knowledge-project/link-tag-use.html" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/" class="nav-link">
+  其他
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/pm/" class="nav-link">
+  产品
+</a></div><div class="nav-item"><a href="/docs/fe/knowledge-project/link-tag-use.html" class="nav-link">
+  前端
+</a></div><div class="nav-item"><a href="/" class="nav-link">
+  其他
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="获取-site-page"><a href="#获取-site-page" class="header-anchor">#</a> 获取 site / page</h3> <p>{
+  &quot;title&quot;: &quot;Buu的网络日志&quot;,
+  &quot;description&quot;: &quot;一个热爱生活的年轻人&quot;,
+  &quot;base&quot;: &quot;/&quot;,
+  &quot;headTags&quot;: [],
+  &quot;pages&quot;: [
+    {
+      &quot;title&quot;: &quot;&lt;link&gt; 使用场景&quot;,
+      &quot;frontmatter&quot;: {},
+      &quot;regularPath&quot;: &quot;/docs/fe/knowledge-project/link-tag-use.html&quot;,
+      &quot;relativePath&quot;: &quot;docs/fe/knowledge-project/link-tag-use.md&quot;,
+      &quot;key&quot;: &quot;v-293307c4&quot;,
+      &quot;path&quot;: &quot;/docs/fe/knowledge-project/link-tag-use.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;基本用法&quot;,
+          &quot;slug&quot;: &quot;基本用法&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;一、链接样式表&quot;,
+          &quot;slug&quot;: &quot;一、链接样式表&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;二、指定 favicon&quot;,
+          &quot;slug&quot;: &quot;二、指定-favicon&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;其他用法&quot;,
+          &quot;slug&quot;: &quot;其他用法&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;一、 dns-prefetch&quot;,
+          &quot;slug&quot;: &quot;一、-dns-prefetch&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;二、preconnect&quot;,
+          &quot;slug&quot;: &quot;二、preconnect&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;三、preload，as，importance 当前页面需要使用的资源。&quot;,
+          &quot;slug&quot;: &quot;三、preload-as-importance-当前页面需要使用的资源。&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;四、prefetch&quot;,
+          &quot;slug&quot;: &quot;四、prefetch&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;五、crossorigin&quot;,
+          &quot;slug&quot;: &quot;五、crossorigin&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;六、alternate + hreflang&quot;,
+          &quot;slug&quot;: &quot;六、alternate-hreflang&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;产品目录&quot;,
+      &quot;frontmatter&quot;: {},
+      &quot;regularPath&quot;: &quot;/docs/pm/&quot;,
+      &quot;relativePath&quot;: &quot;docs/pm/README.md&quot;,
+      &quot;key&quot;: &quot;v-23d4235b&quot;,
+      &quot;path&quot;: &quot;/docs/pm/&quot;
+    },
+    {
+      &quot;title&quot;: &quot;前端目录&quot;,
+      &quot;frontmatter&quot;: {},
+      &quot;regularPath&quot;: &quot;/docs/fe/&quot;,
+      &quot;relativePath&quot;: &quot;docs/fe/README.md&quot;,
+      &quot;key&quot;: &quot;v-68cbb2d7&quot;,
+      &quot;path&quot;: &quot;/docs/fe/&quot;
+    },
+    {
+      &quot;title&quot;: &quot;获取 site / page&quot;,
+      &quot;frontmatter&quot;: {},
+      &quot;regularPath&quot;: &quot;/demo.html&quot;,
+      &quot;relativePath&quot;: &quot;demo.md&quot;,
+      &quot;key&quot;: &quot;v-21d691fc&quot;,
+      &quot;path&quot;: &quot;/demo.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;获取 site / page&quot;,
+          &quot;slug&quot;: &quot;获取-site-page&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;table&quot;,
+          &quot;slug&quot;: &quot;table&quot;
+        },
+        {
+          &quot;level&quot;: 3,
+          &quot;title&quot;: &quot;tips&quot;,
+          &quot;slug&quot;: &quot;tips&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Home&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;home&quot;: true,
+        &quot;heroImage&quot;: &quot;https://cdnimg101.gzlzfm.com/web_res/activityimage/2022/12/02/2978024381561739264.jpg&quot;,
+        &quot;actionText&quot;: &quot;别站着了 快进来 →&quot;,
+        &quot;actionLink&quot;: &quot;/docs/fe/&quot;,
+        &quot;features&quot;: [
+          {
+            &quot;title&quot;: &quot;PM&quot;,
+            &quot;details&quot;: &quot;产品日常&quot;
+          },
+          {
+            &quot;title&quot;: &quot;FE&quot;,
+            &quot;details&quot;: &quot;前端&quot;
+          },
+          {
+            &quot;title&quot;: &quot;Others&quot;,
+            &quot;details&quot;: &quot;其他&quot;
+          }
+        ],
+        &quot;footer&quot;: &quot;MIT Licensed | Copyright © 2022-present Buu&quot;
+      },
+      &quot;regularPath&quot;: &quot;/&quot;,
+      &quot;relativePath&quot;: &quot;README.md&quot;,
+      &quot;key&quot;: &quot;v-500994df&quot;,
+      &quot;path&quot;: &quot;/&quot;
+    }
+  ],
+  &quot;themeConfig&quot;: {
+    &quot;sidebarDepth&quot;: 0,
+    &quot;nav&quot;: [
+      {
+        &quot;text&quot;: &quot;产品&quot;,
+        &quot;link&quot;: &quot;/docs/pm/&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      },
+      {
+        &quot;text&quot;: &quot;前端&quot;,
+        &quot;link&quot;: &quot;/docs/fe/knowledge-project/link-tag-use&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      },
+      {
+        &quot;text&quot;: &quot;其他&quot;,
+        &quot;link&quot;: &quot;/&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      }
+    ],
+    &quot;sidebar&quot;: {
+      &quot;/docs/pm/&quot;: [],
+      &quot;/docs/fe/&quot;: [
+        {
+          &quot;title&quot;: &quot;专项知识&quot;,
+          &quot;children&quot;: [
+            &quot;/docs/fe/knowledge-project/link-tag-use&quot;
+          ]
+        }
+      ]
+    }
+  }
+} / {
+  &quot;title&quot;: &quot;获取 site / page&quot;,
+  &quot;frontmatter&quot;: {},
+  &quot;regularPath&quot;: &quot;/demo.html&quot;,
+  &quot;relativePath&quot;: &quot;demo.md&quot;,
+  &quot;key&quot;: &quot;v-21d691fc&quot;,
+  &quot;path&quot;: &quot;/demo.html&quot;,
+  &quot;headers&quot;: [
+    {
+      &quot;level&quot;: 3,
+      &quot;title&quot;: &quot;获取 site / page&quot;,
+      &quot;slug&quot;: &quot;获取-site-page&quot;
+    },
+    {
+      &quot;level&quot;: 3,
+      &quot;title&quot;: &quot;table&quot;,
+      &quot;slug&quot;: &quot;table&quot;
+    },
+    {
+      &quot;level&quot;: 3,
+      &quot;title&quot;: &quot;tips&quot;,
+      &quot;slug&quot;: &quot;tips&quot;
+    }
+  ]
+}</p> <h3 id="table"><a href="#table" class="header-anchor">#</a> table</h3> <table><thead><tr><th>Tables</th> <th style="text-align:center;">Are</th> <th style="text-align:right;">Cool</th></tr></thead> <tbody><tr><td>col 3 is</td> <td style="text-align:center;">right-aligned</td> <td style="text-align:right;">$1600</td></tr> <tr><td>col 2 is</td> <td style="text-align:center;">centered</td> <td style="text-align:right;">$12</td></tr> <tr><td>zebra stripes</td> <td style="text-align:center;">are neat</td> <td style="text-align:right;">$1</td></tr></tbody></table> <h3 id="tips"><a href="#tips" class="header-anchor">#</a> tips</h3> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>This is a tip</p></div> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>This is a warning</p></div> <div class="custom-block danger"><p class="custom-block-title">DANGER</p> <p>This is a dangerous warning</p></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.3f3c304d.js" defer></script><script src="/assets/js/2.99652857.js" defer></script><script src="/assets/js/12.38fd8346.js" defer></script>
+  </body>
+</html>

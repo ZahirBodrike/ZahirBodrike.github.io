@@ -1,0 +1,55 @@
+{
+  // 开启用 eslint 格式化的语言类型
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  // 开启用 stylelint 格式化的语言类型
+  "stylelint.validate": ["css", "scss", "less"],
+  // 开启保存时自动格式化的语言类型
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // 编辑器默认格式化的插件
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // .js 默认格式化的插件
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .jsx 默认格式化的插件
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .ts 默认格式化的插件
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .tsx 默认格式化的插件
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .css 默认格式化的插件
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .less 默认格式化的插件
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .scss 默认格式化的插件
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .html 默认格式化的插件
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .json 默认格式化的插件
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // .jsonc (json with comment) 默认格式化的插件
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 编辑器开启保存自动格式化
+  "editor.formatOnSave": true
+}
