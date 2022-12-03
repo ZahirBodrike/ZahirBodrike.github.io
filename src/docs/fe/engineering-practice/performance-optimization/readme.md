@@ -98,3 +98,11 @@ js 开源库提供一站式性能指标统计，[web-vitals](https://github.com/
 我们可以提取公共的包放到 CDN 上，减少包体积，优化打包速度
 
 利用 Tree-Shaking 去掉没有引入使用的方法或者库
+
+::: tip 参考
+
+1. [性能之 Web 性能关键点（Web Vitals）](https://juejin.cn/post/6854573212177694733#heading-13)
+2. [DOM, CSS, JS 的阻塞,解析渲染顺序](https://juejin.cn/post/6844903896343642125)
+3. [浅谈 script 标签的 defer 和 async](https://juejin.cn/post/6844903560879013896)
+
+:::

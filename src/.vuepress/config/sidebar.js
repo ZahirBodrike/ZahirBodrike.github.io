@@ -1,9 +1,12 @@
 const sidebarConfig = {
-  "/docs/pm/": [],
   "/docs/fe/": [
     {
       title: "技术实践",
-      children: ["/docs/fe/engineering-practice/performance-optimization/"],
+      children: [
+        "/docs/fe/engineering-practice/performance-optimization/",
+        "/docs/fe/engineering-practice/web-fe-security/",
+        "/docs/fe/engineering-practice/apps-monorepo/",
+      ],
     },
     {
       title: "业务沉淀",
@@ -14,9 +17,13 @@ const sidebarConfig = {
     },
     {
       title: "专项知识",
-      children: ["/docs/fe/knowledge-project/link-tag-use/"],
+      children: [
+        "/docs/fe/knowledge-project/link-tag-use/",
+        "/docs/fe/knowledge-project/what-is-monorepo/",
+      ],
     },
   ],
+  "/docs/pm/": [],
   "/docs/others/": [],
 };
 
