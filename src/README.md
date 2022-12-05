@@ -1,12 +1,13 @@
 ---
 home: true
 heroImage: https://cdnimg101.gzlzfm.com/web_res/activityimage/2022/12/02/2978024381561739264.jpg
+# heroImage: ~@/.vuepress/assets/images/avatar.jpg
 actionText: 别站着了 快进来 →
 actionLink: /docs/fe/
 features:
-  - title: FE
-    details: 前端
-  - title: PM
+  - title: 前端 - FE
+    details: 记录作为前端er的一些技术沉淀、知识梳理、归纳总结
+  - title: 产品 - PM
     details: 产品日常
   - title: Others
     details: 其他

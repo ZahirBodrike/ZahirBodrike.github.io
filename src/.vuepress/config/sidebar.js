@@ -24,7 +24,7 @@ const sidebarConfig = {
     },
   ],
   "/docs/pm/": [],
-  "/docs/others/": [],
+  "/docs/others/": ["/docs/others/path-dependence/"],
 };
 
 module.exports = {
