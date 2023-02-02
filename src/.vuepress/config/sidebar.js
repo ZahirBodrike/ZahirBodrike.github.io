@@ -6,6 +6,7 @@ const sidebarConfig = {
         "/docs/fe/engineering-practice/performance-optimization/",
         "/docs/fe/engineering-practice/web-fe-security/",
         "/docs/fe/engineering-practice/apps-monorepo/",
+        "/docs/fe/engineering-practice/chat-robot-serverless/",
       ],
     },
     {
